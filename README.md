@@ -60,6 +60,7 @@ Please download the ILSVRC2015 DET and ILSVRC2015 VID dataset from [here](http:/
 The inference command line for testing on the validation dataset:
 
     python -m torch.distributed.launch --nproc_per_node=8 tools/test.py --config-file experiments/PTSEFormer_r101_8gpus.yaml
+Pretrained model can be found [here](https://drive.google.com/file/d/1-rNHCRdld3iW2tVwPuZrN9o8QRm-aBYj/view?usp=share_link).
 
 ### Training
 
